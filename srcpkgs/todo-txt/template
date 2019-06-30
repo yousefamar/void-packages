@@ -1,0 +1,15 @@
+# Template file for 'todo-txt'
+pkgname=todo-txt
+version=2.11.0
+revision=1
+wrksrc="todo.txt_cli-${version}"
+build_style=gnu-makefile
+hostmakedepends=""
+makedepends=""
+depends=""
+short_desc="A simple and extensible shell script for managing your todo.txt file"
+maintainer="Yousef Amar <yousefamar@gmail.com>"
+license="GPL-3.0-or-later"
+homepage="http://todotxt.org/"
+distfiles="https://github.com/todotxt/todo.txt-cli/archive/v${version}.tar.gz"
+checksum=5fe723bea3e3a1e697484cba92b46e90f13150ee1a444c4a9408c2cd28ea5255
